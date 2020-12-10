@@ -6,6 +6,8 @@ app.get('/somedata', (request, response) => {
 });
 
 app.get('/about', (request, response) => {
+    console.log(request);
+
     response.send('this page is all about me');
 });
 
